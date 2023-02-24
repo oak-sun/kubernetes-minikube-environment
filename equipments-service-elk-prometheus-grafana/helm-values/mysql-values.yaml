@@ -1,0 +1,10 @@
+image:
+  tag: 8.0.32-debian-11-r6
+auth:
+  rootPassword: secret
+  database: equipments_db
+primary:
+  persistence:
+    enabled: false
+secondary:
+  replicaCount: 0

@@ -1,0 +1,7 @@
+imageTag: 8.5.3
+resources:
+  requests:
+    cpu: 100m
+    memory: 128Mi
+service:
+  type: NodePort
